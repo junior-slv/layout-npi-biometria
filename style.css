@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s ease-in-out;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #1f1e1e;
+}
+img{
+    width: 30rem;
+    height: 10rem;
+    backdrop-filter: blur(5rem);
+            
+}
+button:not(:hover){
+    cursor: pointer;
+    border: none;
+
+    padding: 1.5rem 2rem;
+
+    background: #f1841e;
+    color: #ffffff;
+    font-size: 1rem;
+    
+    border-radius: 30px;
+    transition: 1s ease;
+    box-shadow: 2px 2px 28px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 28px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+button:hover{
+    cursor: pointer;
+    border: none;
+
+    padding: 1.5rem 2rem;
+
+    background: #f1841e;
+    font-size: 1rem;
+    
+    border-radius: 30px;
+    box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
+    transition: 1s ease-in-out;
+}
+.box1{
+    margin-bottom: 1rem;
+}
+.box1 p{
+    font-size: 2rem;
+}
+.box2{
+    margin-top: 1rem;
+}
+.box3{
+    margin-top: 3rem;
+}
+.box4{
+    margin: 1rem 3rem;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 1rem 1rem;
+}
+.box4 p{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.box4 a{
+    text-decoration: underline;
+    color: #0000ff;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-main{
+    background: #fff;
+    height: 100vh;
+
+    background: #1f1e1e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+.content-bottom{
+    height: 47rem;
+}
+.content-center{
+    border-radius: 15px;
+
+    background: #F08F33;
+    width: 36rem;
+    height: 36rem;
+    position: relative;
+    box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
+}
