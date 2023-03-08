@@ -9,14 +9,13 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
-    background: #1f1e1e;
 }
+
+
 img{
     width: 30rem;
     height: 10rem;
-    backdrop-filter: blur(5rem);
+    
             
 }
 button:not(:hover){
@@ -42,14 +41,21 @@ button:hover{
 
     padding: 1.5rem 2rem;
 
-    background: #f1841e;
+    background: #ffffff;
+    color: #f1841e;
     font-size: 1rem;
     
     border-radius: 30px;
     box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 2px 28px -3px rgba(0,0,0,0.75);
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.bx-fingerprint:not(:hover){
+    color: #ffffff;
+}
+.bx-fingerprint:hover{
+    color: #f1841e;
 }
 .box1{
     margin-bottom: 1rem;
@@ -65,9 +71,10 @@ button:hover{
 }
 .box4{
     margin: 1rem 3rem;
-    border: 2px solid #fff;
+
     border-radius: 15px;
     padding: 1rem 1rem;
+
 }
 .box4 p{
     margin-left: 1rem;
@@ -83,24 +90,35 @@ button:hover{
     align-items: center;
     flex-direction: column; 
 }
+.bg-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/613144044411027456/1083131153747296376/image.png);
+
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+
+
     
 }
 .content-main{
     background: #fff;
     height: 100vh;
-
-    background: #1f1e1e;
+    
+    background: transparent;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 
+
+    
 
 }
 
@@ -109,12 +127,11 @@ button:hover{
 }
 .content-center{
     border-radius: 15px;
-
-    background: #F08F33;
-    width: 36rem;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    width: 30rem;
     height: 36rem;
     position: relative;
-    box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
--webkit-box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 2px 41px 11px rgba(0,0,0,0.75);
 }
+
